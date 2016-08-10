@@ -35,7 +35,7 @@ setImgSize.init({
   callback: function () { // 所有图片设置完毕后的回调函数
     console.log('set complete');
   },
-  center: true // 是否让图片居中显示
+  center: true // 是否让图片按照中心显示，默认false，需设置顶层dom CSS position: relative
 });
 ```
 
