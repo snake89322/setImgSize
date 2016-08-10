@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>setImgSize-demo</title>
+		
+		<script src="libs/setImgSize-0.0.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.img-frame {
+			  text-align: center;
+			  overflow: hidden;
+			  border: 1px solid #000;
+			  box-sizing: border-box;
+			  position: relative;
+			  height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+	  <!-- other same name class -->
+	  <div class="img-adapt"></div>
+	  <!-- images -->
+	  <div class="img-frame"><img src="images/1.jpg" class="img-adapt" data-size="600, 500" /></div>
+	  <div class="img-frame"><img src="images/2.jpg" class="img-adapt" data-size="400, 200"/></div>
+	  <div class="img-frame"><img src="images/3.jpg" class="img-adapt" data-size="300, 300"/></div>
+	  <div class="img-frame"><img src="images/4.jpg" class="img-adapt" data-size="400, 600"></div>
+    
+   
+    <script type="text/javascript">
+    	setImgSize.init({
+    	  className: 'img-adapt',
+    	  callback: function () {
+    	    console.log('set complete');
+    	  },
+    	  center: true
+    	});
+    </script>
+	</body>
+</html>
