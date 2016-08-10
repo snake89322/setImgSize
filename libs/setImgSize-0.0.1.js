@@ -1,7 +1,7 @@
 /*!
  * VERSION: 0.0.1
  * DATE: 2016-08-10
- * UPDATES AND DOCS AT: http://greensock.com
+ * UPDATES AND DOCS AT: https://github.com/snake89322/setImgSize
  *
  * This is a img adapt to fixed size plugin.
  *
