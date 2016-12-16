@@ -40,4 +40,5 @@ setImgSize.init({
 ```
 
 23
+34
 
